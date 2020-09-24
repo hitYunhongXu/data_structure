@@ -3,4 +3,4 @@ project(myHeap)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(myHeap main.cpp myHeap.h)
+add_executable(myHeap main.cpp myHeap.h maxHeap.cpp Func.cpp minHeap.cpp)

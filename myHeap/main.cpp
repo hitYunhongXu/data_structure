@@ -3,14 +3,14 @@
 
 int main()
 {
-	Heap H = createHeap(10);
+	Heap H = createMinHeap(10);
 	for (int i = 1; i < 11; ++i)
 	{
-		H->data[i] = i;
+		H->data[i] = 10-i;
 		++H->size;
 	}
 
-	buildHeap(H);
+	buildMinHeap(H);
 
 	for (int i = 1; i < 11; ++i)
 	{
